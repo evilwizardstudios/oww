@@ -1,0 +1,115 @@
+@font-face{
+    font-family: 'Big Noodle Too Oblique';
+    src: url('./res/BigNoodleTooOblique.ttf'),
+    url('./res/BigNoodleTooOblique.ttf'); /* IE */
+}
+
+@font-face{
+    font-family: 'Futura';
+    src: url('./res/Futura.ttf'),
+    url('./res/Futura.ttf'); /* IE */
+}
+body{
+  background-image: url('./res/bg.jpg');
+  background-repeat: no-repeat;
+background-attachment: fixed;
+}
+
+p {
+  text-align: center;
+  font-size: 18px;
+  font-family: 'Futura';
+  color: #ecf0f1;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.header {
+  position: relative;
+}
+
+.title{
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.social{
+  text-align: right;
+  padding: 5px;
+  padding-right: 25px;
+}
+
+.listItem {
+  transition: background 0.3s ease;
+  transition: border 0.3s ease;
+
+  padding: 10px;
+  background: rgba(23,26,33,0.6);
+  border: 1px solid #0198ca;
+  border-radius: 5px;
+}
+
+.listItem:hover{
+  background: rgb(23,26,33);
+  border: 1px solid #ffffff;
+}
+
+.listItem img{
+  border-radius: 5px;
+}
+
+.preview {
+  display:table;
+  margin:0 auto;
+}
+
+.centered {
+  text-align: center;
+  padding-top: 70px;
+}
+
+.name {
+transition: color 0.3s ease;
+
+font-size: 70px;
+font-weight: bold;
+font-family: 'Big Noodle Too Oblique';
+line-height: 25px;
+color: #e1bc07;
+text-shadow: 5px 5px 5px black;
+}
+
+.name:hover{
+  color: #ffdd4b;
+}
+
+.name sub{
+  font-family: 'Futura';
+  font-size: 20px;
+  font-variant: small-caps;
+  color: #0198ca;
+
+}
+
+.viewers{
+  top: -30px;
+  font-size: 20px;
+  font-family: 'Futura';
+  font-variant: small-caps;
+  color: #0198ca;
+
+}
+
+.viewers i{
+  font-size: 50px;
+  font-family: 'Big Noodle Too Oblique';
+  line-height: 60%;
+  color: #e1bc07;
+  text-shadow: 5px black;
+}
+
+footer{
+  padding-right: 10px;
+  color: grey;
+  text-align: right;
+}
