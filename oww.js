@@ -3,7 +3,7 @@ var owwApp = angular.module('owwApp', []);
 owwApp.factory('dataService', function($http) {
   var myService = {
     async: function() {
-      var promise = $http.get('https://api.twitch.tv/kraken/streams?game=overwatch').then(function (response)
+      var promise = $http.get('https://api.twitch.tv/kraken/streams?game=Hearthstone: Heroes of Warcraft').then(function (response)
       {
         return response.data;
       });

@@ -24,6 +24,15 @@ p {
   padding-bottom: 10px;
 }
 
+.beep {
+  text-align: center;
+  font-size: 15x;
+  font-family: 'Futura';
+  color: #FF6600;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
 .header {
   position: relative;
 }
@@ -56,6 +65,9 @@ p {
 
 .listItem img{
   border-radius: 5px;
+  max-width: 100%;
+  max-height: 100%;
+  padding: 10px;
 }
 
 .preview {
